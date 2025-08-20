@@ -32,12 +32,39 @@
 
 #let the number x=25
 
-a = (1,4,9,16,25,36,49,64,81,100)
+# a = (1,4,9,16,25,36,49,64,81,100)
+# x = 25
+# i = 0
+# while i<=len(a)-1:
+#     if a[i]==x:
+#         print("find at index=",i)
+#     else:
+#         print("finding...")
+#     i +=1
+
+#print the element of the following list using a for loop
+#[1,4,9,16,25,36,49,64,81,100]
+
+num = [1,4,9,16,25,36,49,64,81,100]
+for val in num:
+    print(val)
+
+#search for a number x in the tuple using for loop
+#(1,4,9,16,25,36,49,64,81,100)
+
+num = (1,4,9,16,25,36,49,64,81,100)
 x = 25
 i = 0
-while i<=len(a)-1:
-    if a[i]==x:
-        print("find at index=",i)
+
+for val in num:
+    if val==25:
+        print("find the value at index",i)
     else:
         print("finding...")
     i +=1
+
+    
+
+
+
+
